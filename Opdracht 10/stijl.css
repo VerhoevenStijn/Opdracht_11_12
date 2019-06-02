@@ -1,0 +1,358 @@
+@supports (grid-area: auto) {
+  /* we weten hier: ondersteuning voor grid-layout */
+
+body {
+position: relative;
+font-family: 'Fjalla One', sans-serif;
+font-size: 1.6rem;
+background-color: white;
+}
+
+header{
+  position: fixed;
+  height: 10rem;
+  width: 100vw;
+  padding: ;
+  padding-top: 1rem;
+  position: relative;
+  font-size: 1.6rem;
+  z-index: 1;
+  box-shadow: 0 0 0.5rem grey;
+  background: linear-gradient(to right,  #ae8b9c 0%,#8baaaa 100%);
+}
+
+.logo{
+  position: absolute;
+  font-family: 'Concert One', cursive;
+  color: white;
+  top: 3rem;
+  left: 3rem;
+  font-size: 4rem;
+}
+
+nav{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    background-color: white;
+    opacity: 1;
+    height: 100rem;
+    padding-top: 5rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+nav a{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: auto;
+  text-decoration: none;
+  color: black;
+
+}
+nav a:link{
+  color: darkgrey;
+  text-decoration: none;
+}
+nav a:hover{
+  color: black;
+}
+nav a:visited{
+  color: darkgrey;
+}
+nav span{
+  border-right: 0.15rem solid white;
+}
+.hamburger {
+    position: absolute;
+    right: 2rem;
+    top: 2.5rem;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-top: 0.5rem solid white;
+    border-bottom: 0.5rem solid white;
+}
+.hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.7rem;
+    right: 0px;
+    width: 100%;
+    border-top: 0.5rem solid white;
+}
+.close {
+  position: fixed;
+  right: 2.5rem;
+  top: 3rem;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 4px;
+  background-color: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.plus{
+  position: relative;
+  width: 50px;
+  height:50px;
+  margin-left: 17.5rem;
+  margin-top: 2rem;
+  z-index: 1;
+}
+main {
+  padding: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(to right, #D16BA5 0%, #E3FB5F 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.paragraaf1{
+  text-align: justify;
+  line-height: 2rem;
+}
+
+main h2{
+  width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  background-image: radial-gradient(circle, #8696ce, #52a8de, #00b8db, #00c5c4, #41ce9f, #87ce7f, #baca6b, #e7c26a, #ffb786, #ffb4ad, #ffb9d2, #f1c4ec);
+}
+
+.links{
+  background: linear-gradient(to left, #D16BA5 0%, #E3FB5F 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.links:hover{
+  background: linear-gradient(to left, #8696CE 0%, #F1C4EC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+ol{
+  margin-left: 5rem;
+}
+ol li{
+  margin-bottom: 1rem;
+}
+.paragraaf2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.paragraaf3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.paragraaf4{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.paragraaf5{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 850px){
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0rem;
+    right: 2rem;
+    height: 0;
+    margin-top: 2rem;
+    padding-top: 0;
+    background-color: white;
+    width: 50rem;
+  }
+  .hamburger{
+    display: none;
+  }
+  .close{display: none;}
+  nav a{
+    font-size: 2rem;
+  }
+  nav a:link{
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover{
+    color: black;
+  }
+  nav a:visited{
+    color: white;
+  }
+
+
+main{
+  padding: 2rem;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  background: linear-gradient(to right, #D16BA5 0%, #E3FB5F 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.paragraaf1{
+  text-align: justify;
+  line-height: 2rem;
+}
+
+main h2{
+  width: 25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  background-image: radial-gradient(circle, #8696ce, #52a8de, #00b8db, #00c5c4, #41ce9f, #87ce7f, #baca6b, #e7c26a, #ffb786, #ffb4ad, #ffb9d2, #f1c4ec);
+}
+
+.links{
+  background: linear-gradient(to left, #D16BA5 0%, #E3FB5F 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.links:hover{
+  background: linear-gradient(to left, #8696CE 0%, #F1C4EC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+ol{
+  margin-left: 5rem;
+}
+ol li{
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+.paragraaf2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.paragraaf3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.paragraaf4{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.paragraaf5{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+}
+
+@media (min-width: 1100px){
+  main{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  h1{
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  main h2{
+    background-image: none;
+    color: black;
+  }
+  .paragraaf1{
+    grid-column: 1/3;
+    grid-row: 2;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectie1{
+    grid-column: 1;
+    grid-row: 3;
+    border: 0.2rem solid black;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom,  #c6ffbd  0%,#ffffff 100%);
+  }
+  .sectie2{
+    grid-column: 2;
+    grid-row: 3;
+    border: 0.2rem solid black;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom,  #93a5cf 0%,#e4efe9 100%);
+  }
+  .sectie3{
+    grid-column: 1/3;
+    grid-row: 4;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2rem solid black;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom,  #fbd035 0%,#fff3c7 100%);
+  }
+
+  }

@@ -1,0 +1,168 @@
+@supports (grid-area: auto) {
+	/* we weten hier: ondersteuning voor grid-layout */
+
+body {
+  position: relative;
+  height:100vh;
+  background-color: white;
+}
+
+.bovenbalk {
+  height: 10rem;
+  width:100vw;
+  background-color: #d34338;
+}
+
+h1{
+  font-family: foco, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  color:white;
+  text-align: center;
+  padding-top: 3rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:2rem;
+}
+img {
+  position: absolute;
+  right: 3rem;
+  top: 12rem;
+  width: 20rem;
+  height: 10rem;
+}
+.vraag1{
+  font-family: foco, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+  color:black;
+  text-align: center;
+  padding-top: 13rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  grid-column: 1/3;
+  grid-row: 1;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing 5s steps(70, end),
+    borderright 0.75s step-end infinite;
+  }
+
+@keyframes typing {
+  0% {width: 0%}
+  100% {width: 100%}
+}
+
+@keyframes borderright {
+  from, to {border-color: transparent}
+  50% { border-color: black;}
+}
+
+.jaartal1{
+  text-decoration: none;
+  font-family: foco, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: #d34338;
+  padding: 1rem;
+  color:white;
+  animation: verschijnen 0s 5.5s forwards;
+  visibility: hidden;
+}
+
+.jaartal2{
+  text-decoration: none;
+  font-family: foco, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: #d34338;
+  padding: 1rem;
+  color: white;
+  animation: verschijnen 0s 6s forwards;
+  visibility: hidden;
+}
+
+@keyframes verschijnen {
+  to {visibility: visible;}
+}
+.antwoord{
+  position: absolute;
+  left: 35vw;
+  top: 30rem;
+  font-size: 3rem;
+  text-decoration: none;
+  font-family: foco, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  display: none;
+}
+.volgendevraag{
+  text-decoration: none;
+  position: absolute;
+  bottom: 18rem;
+  right:2rem;
+  text-align: center;
+  background-color: #98352c;
+  padding: 1rem;
+  margin-top: 5rem;
+  justify-content: center;
+  font-family: foco, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color:white;
+}
+.onderbalk {
+  position: absolute;
+  bottom:0rem;
+  width: 100vw;
+  height: 15rem;
+  background-color: #d34338;
+}
+
+	@media (min-width: 60rem) {
+
+  .vraag1 {
+    font-size: 2.5rem;
+  }
+  .antwoord{
+    left: 45vw;
+  }
+  .jaartal1{
+    animation: verschijnen 0s 4.5s forwards;
+    visibility: hidden;
+  }
+  .jaartal2{
+    animation: verschijnen 0s 5s forwards;
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 100rem) {
+  .jaartal1{
+    animation: verschijnen 0s 3s forwards;
+    visibility: hidden;
+  }
+  .jaartal2{
+    animation: verschijnen 0s 3.5s forwards;
+    visibility: hidden;
+  }
+}
+}

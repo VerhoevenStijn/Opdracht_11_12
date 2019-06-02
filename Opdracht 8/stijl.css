@@ -1,0 +1,540 @@
+body {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+main{
+    background-color: lightblue;
+    width: 100vw;
+    height: 60rem;
+    position: absolute;
+    z-index: -2;
+    animation-name: lucht;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+.huis:nth-child(1) {
+  background-color: #ffcc99;
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 10rem;
+  top: 40rem;
+}
+
+.huis:nth-child(2) {
+    border-bottom: 100px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 20rem;
+    top: 30rem;
+    left: 10rem;
+    }
+
+.huis:nth-child(3) {
+  background-color: orange;
+  width: 5rem;
+  height: 5rem;
+  top: 45rem;
+  position: absolute;
+  left: 12rem;
+}
+
+.huis:nth-child(4) {
+  background-color: brown;
+  width: 7rem;
+  height: 15rem;
+  position: absolute;
+  left: 21rem;
+  top: 45rem;
+}
+
+.huis:nth-child(5) {
+  background-color: brown;
+  width: 0.5rem;
+  height: 5rem;
+  position: absolute;
+  left: 14.25rem;
+  top: 45rem;
+}
+
+.huis:nth-child(6) {
+  background-color: brown;
+  width: 5rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 12rem;
+  top: 47.25rem;
+}
+
+.huis:nth-child(7) {
+  background-color: #ffcc00;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 26rem;
+  top: 53rem;
+}
+.huis:nth-child(8) {
+  background-color: darkgrey;
+  width: 2rem;
+  height: 5rem;
+  position: absolute;
+  left: 25rem;
+  top: 25rem;
+}
+
+.huis:nth-child(9) {
+  background-color: darkgrey;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 24.5rem;
+  top: 23rem;
+  border-radius: 50%;
+}
+
+.straat:nth-child(10) {
+  background-color: #99ff33;
+  width: 120rem;
+  height: 21rem;
+  position: absolute;
+  border-radius: 40%;
+  top: 49rem;
+  left: 52rem;
+  transform: rotate(-5deg);
+}
+
+.straat:nth-child(11) {
+  background-color: green;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 35rem;
+  top: 55rem;
+
+}
+
+.straat:nth-child(12) {
+  background-color: green;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 32rem;
+  top: 54rem;
+}
+
+.straat:nth-child(13) {
+  background-color: green;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 35rem;
+  top: 52rem;
+}
+.straat:nth-child(14) {
+  background-color: green;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 38rem;
+  top: 54rem;
+}
+
+.straat:nth-child(15) {
+  background-color: darkgreen;
+  width: 100vw;
+  height: 2rem;
+  position: absolute;
+  top: 60rem;
+}
+
+.straat:nth-child(16) {
+  background-color: darkgrey;
+  width: 100vw;
+  height: 10rem;
+  position: absolute;
+  top: 62rem;
+}
+
+.straat:nth-child(17) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+}
+
+.straat:nth-child(18) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 15rem;
+}
+
+.straat:nth-child(19) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 30rem;
+}
+
+.straat:nth-child(20) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 45rem;
+}
+.straat:nth-child(21) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 60rem;
+}
+
+.straat:nth-child(22) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 75rem;
+}
+
+.straat:nth-child(23) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 90rem;
+}
+
+.straat:nth-child(24) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 105rem;
+}
+
+.straat:nth-child(25) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 120rem;
+}
+
+.straat:nth-child(26) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 135rem;
+}
+
+.straat:nth-child(27) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 150rem;
+}
+
+.straat:nth-child(28) {
+  background-color: white;
+  width: 10rem;
+  position: absolute;
+  width: 10rem;
+  height: 1rem;
+  top: 66.5rem;
+  left: 165rem;
+}
+
+.straat:nth-child(29) {
+  background-color: #f9d71c;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+  border-radius: 50%;
+  z-index: -1;
+  animation-name: zon;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.straat:nth-child(30) {
+  background-color: #f9d71c;
+  width: 7rem;
+  height: 7rem;
+  position: absolute;
+  left:9rem;
+  top: 14rem;
+  border-radius: 50%;
+  opacity: 0.7;
+  filter: blur(2rem);
+  z-index: -1;
+  animation-name: zon;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto:nth-child(1){
+  background-color: darkred;
+  width: 25rem;
+  height: 10rem;
+  border-radius: 5%;
+  position: absolute;
+  left:5rem;
+  top: 52rem;
+}
+.auto:nth-child(2){
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid darkred;
+  border-right: 100px solid transparent;
+  position: absolute;
+  left: 29.5rem;
+  top: 52rem;
+    }
+.auto:nth-child(3) {
+   width: 0;
+   height: 0;
+   border-bottom: 100px solid darkred;
+   border-left: 100px solid transparent;
+   position: absolute;
+   left: -4.5rem;
+   top: 52rem;
+   }
+
+ .auto:nth-child(4) {
+   width: 0;
+   height: 0;
+   border-bottom: 50px solid #708090;
+   border-right: 50px solid transparent;
+   position: absolute;
+   left: 30rem;
+   top:53rem;
+ }
+ .auto:nth-child(5){
+   background-color: #708090;
+   width: 7rem;
+   height: 5rem;
+   position: absolute;
+   top:53rem;
+   left: 20rem;
+ }
+
+ .auto:nth-child(6){
+   background-color: #708090;
+   width: 7rem;
+   height: 5rem;
+   position: absolute;
+   top:53rem;
+   left: 8rem;
+ }
+
+ .auto:nth-child(7){
+   width: 0;
+   height: 0;
+   border-bottom: 50px solid #708090;
+   border-left: 50px solid transparent;
+   position: absolute;
+   top: 53rem;
+   left:0rem;
+ }
+.auto2:nth-child(1) {
+  background-color: #696969;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 5rem;
+  top: 60rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto2:nth-child(2) {
+  background-color: #696969;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 25rem;
+  top: 60rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+.auto2:nth-child(3) {
+  background-color: grey;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 25.5rem;
+  top: 60.5rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto2:nth-child(4) {
+  background-color: grey;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 5.5rem;
+  top: 60.5rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto2:nth-child(5){
+  background-color: black;
+  width: 0.5rem;
+  height: 4rem;
+  position: absolute;
+  left: 7.25rem;
+  top: 60.5rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto2:nth-child(6){
+  background-color: black;
+  width: 4rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 5.5rem;
+  top: 62.25rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto2:nth-child(7){
+  background-color: black;
+  width: 0.5rem;
+  height: 4rem;
+  position: absolute;
+  left: 27.25rem;
+  top: 60.5rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.auto2:nth-child(8){
+  background-color: black;
+  width: 4rem;
+  height: 0.5rem;
+  position: absolute;
+  left: 25.5rem;
+  top: 62.25rem;
+  animation-name: wielendraaien;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.car{
+  position: absolute;
+  animation-name: rijden;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rijden {
+	0%   {left:-25%;}
+	100% {left:110%;}
+}
+
+@keyframes wielendraaien {
+  0% {transform: rotate(-360deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes zon{
+  0% {
+    left: -10rem;
+    top: 100%}
+  33% {
+    left: 30%;
+    top: 10rem;
+  }
+  66%{
+    left: 60%;
+    top: 10rem;}
+
+  100%{
+    left:110%;
+    top: 100%;
+  }
+}
+@keyframes lucht{
+  0% {
+    background-color: #111018;
+  }
+  20% {
+    background-color: lightblue;
+  }
+  80%{
+    background-color: lightblue;
+  }
+  100%{
+    background-color: #111018;
+  }
+}
