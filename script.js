@@ -74,7 +74,6 @@ let mijnKnop = document.querySelector("h3");
 
 function scrollen() {
   mijnBody.scrollTop = 10;
-  console.log("hallo");
 }
 
 mijnKnop.addEventListener("click", scrollen);
